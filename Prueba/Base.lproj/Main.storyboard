@@ -227,6 +227,19 @@
                                             <action selector="addTask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ne4-F5-mYQ"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qY8-bH-N26">
+                                        <rect key="frame" x="133" y="251" width="108" height="40"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.1137254902" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="108" id="U5S-b6-WNv"/>
+                                            <constraint firstAttribute="height" constant="40" id="ZjD-of-IqZ"/>
+                                        </constraints>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Cancelar"/>
+                                        <connections>
+                                            <action selector="cancel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="05I-cN-qTB"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -235,9 +248,11 @@
                                     <constraint firstItem="pFz-El-wh1" firstAttribute="top" secondItem="MiP-Ef-ju2" secondAttribute="bottom" constant="21" id="2pd-Cp-EJm"/>
                                     <constraint firstItem="MiP-Ef-ju2" firstAttribute="width" secondItem="28V-YQ-hx8" secondAttribute="width" id="5dM-Da-3gs"/>
                                     <constraint firstItem="BfV-tI-egb" firstAttribute="top" secondItem="CQF-LX-TNP" secondAttribute="top" constant="40" id="7Ni-Cn-bsB"/>
+                                    <constraint firstItem="qY8-bH-N26" firstAttribute="centerX" secondItem="pFz-El-wh1" secondAttribute="centerX" id="7Pb-WF-1sO"/>
                                     <constraint firstItem="28V-YQ-hx8" firstAttribute="top" secondItem="BfV-tI-egb" secondAttribute="bottom" constant="20" id="8lh-NN-SYF"/>
                                     <constraint firstItem="MiP-Ef-ju2" firstAttribute="centerX" secondItem="28V-YQ-hx8" secondAttribute="centerX" id="994-DV-0lk"/>
                                     <constraint firstItem="MiP-Ef-ju2" firstAttribute="top" secondItem="28V-YQ-hx8" secondAttribute="bottom" constant="20" id="9Sr-96-RmE"/>
+                                    <constraint firstItem="qY8-bH-N26" firstAttribute="top" secondItem="pFz-El-wh1" secondAttribute="bottom" constant="20" id="M5m-ro-i8l"/>
                                     <constraint firstItem="BfV-tI-egb" firstAttribute="centerX" secondItem="28V-YQ-hx8" secondAttribute="centerX" id="WB7-v5-k4l"/>
                                     <constraint firstItem="28V-YQ-hx8" firstAttribute="centerX" secondItem="CQF-LX-TNP" secondAttribute="centerX" id="j6K-pf-hDt"/>
                                     <constraint firstItem="pFz-El-wh1" firstAttribute="centerX" secondItem="MiP-Ef-ju2" secondAttribute="centerX" id="zKK-if-hNo"/>

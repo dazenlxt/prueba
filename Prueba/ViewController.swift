@@ -30,6 +30,12 @@ class ViewController: UIViewController {
         var value = viewModel.tasks.value
         viewModel.tasks.value = value
     }
+    @IBAction func cancel(_ sender: Any) {
+        form.isHidden = true
+        txtName.text = ""
+        txtDueDate.text = ""
+        txtPriority.text = ""
+    }
     @IBAction func showNewTask(_ sender: Any) {
         form.isHidden = false
     }
@@ -101,6 +107,21 @@ class ViewController: UIViewController {
         toolbar.setItems(barItems, animated: false)
         txtDueDate.inputView = datePicker
         txtDueDate.inputAccessoryView = toolbar
+        txtName.rx.text
+            .subscribe(onNext: { n in
+                self.viewModel.name.value = n!
+            })
+        txtPriority.rx.text
+            .subscribe(onNext: { n in
+                self.viewModel.priority.value = n!
+            })
+        txtDueDate.rx.text
+            .subscribe(onNext: { n in
+                self.viewModel.duedate.value = n!
+            })
+        //from the viewModel
+        viewModel.isValid.map{ $0 }
+            .bind(to: btnAdd.rx.isEnabled)
         
     }
     func updateDate()

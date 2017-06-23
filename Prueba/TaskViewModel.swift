@@ -14,6 +14,17 @@ public class TaskViewModel {
     var tasks: Variable<[TaskData]> = Variable([])
     var disposeBag = DisposeBag()
     var hideForm = Variable<Bool>(true)
+    var name = Variable<String>("")
+    var duedate = Variable<String>("")
+    var priority = Variable<String>("")
+    var isValid : Observable<Bool>{
+        return Observable.combineLatest( self.name.asObservable(), self.duedate.asObservable(),self.priority.asObservable())
+        { (name, duedate,priority) in
+            return name.characters.count > 0
+                && duedate.characters.count > 0
+                && priority.characters.count > 0
+        }
+    }
     init()
     {
         let dateFormatter = DateFormatter()
