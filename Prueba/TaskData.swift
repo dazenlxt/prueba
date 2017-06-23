@@ -9,7 +9,7 @@
 import Foundation
 import ObjectMapper
 
-class TaskDataProxy : Mappable{
+class TaskDataResponse : Mappable{
     
     var name: String?
     var dueDate: String?
@@ -20,10 +20,11 @@ class TaskDataProxy : Mappable{
     }
     
     func mapping(map: Map) {
-        name <- map["name"]
-        dueDate <- map["dueDate"]
-        priority <- map["priority"]
-        id <- map["id"]
+        
+        name <- map["Name"]
+        dueDate <- map["DueDate"]
+        priority <- map["Priority"]
+        id <- map["Id"]
         
     }
     
@@ -35,4 +36,22 @@ class TaskData {
     var priority: Int?
     var id: Int?
     
+}
+
+class DefaultResponse : Mappable{
+    var error_description: String?
+    var error: String?
+    var isSuccess: Bool?
+    var id: Int?
+    required init?(map: Map) {
+        
+    }
+    
+    func mapping(map: Map) {
+        error <- map["error"]
+        id <- map["id"]
+        isSuccess <- map["isSuccess"]
+        error_description <- map["error_description"]
+        
+    }
 }
