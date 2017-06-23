@@ -11,7 +11,9 @@ import RxSwift
 import RxCocoa
 
 class ViewController: UIViewController {
-
+    
+    var date = Date()
+    let datePicker = UIDatePicker()
     @IBOutlet weak var tableViewOverdate: UITableView!
     @IBOutlet weak var tableViewPending: UITableView!
     @IBOutlet weak var switchName: UISwitch!
@@ -81,8 +83,34 @@ class ViewController: UIViewController {
             .addDisposableTo(disposeBag)
         
         
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        datePicker.datePickerMode = UIDatePickerMode.date
+        datePicker.date = date
+        datePicker.addTarget(self, action: #selector(updateDate), for: UIControlEvents.touchUpInside)
+        let toolbar = UIToolbar(frame: CGRect(x:UIScreen.main.bounds.width - 320, y: 0, width: 320, height: 44))
+        
+        toolbar.barStyle = .default
+        toolbar.sizeToFit()
+        let doneButton = UIBarButtonItem(title: "Seleccionar",style: .done, target: self, action: #selector(updateDate))
+        let flexSpaceDat = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
+        var barItems : [UIBarButtonItem] = []
+        barItems.append(flexSpaceDat)
+        barItems.append(doneButton)
+        toolbar.setItems(barItems, animated: false)
+        txtDueDate.inputView = datePicker
+        txtDueDate.inputAccessoryView = toolbar
+        
     }
-
+    func updateDate()
+    {
+        date = (datePicker.date)
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        txtDueDate.text = dateFormatter.string(from: date)
+        txtDueDate.resignFirstResponder()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
