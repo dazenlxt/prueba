@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/TaskViewModel.swift"
+            timestampString = "519929402.342351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "TaskViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskViewModel.tasks.getter : RxSwift.Variable&lt;Swift.Array&lt;Prueba.TaskData&gt;&gt;"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskViewModel.swift"
+                  timestampString = "519926243.381903"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskViewModel.tasks.setter : RxSwift.Variable&lt;Swift.Array&lt;Prueba.TaskData&gt;&gt;"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskViewModel.swift"
+                  timestampString = "519926243.38415"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskViewModel.init () -&gt; Prueba.TaskViewModel"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskViewModel.swift"
+                  timestampString = "519926243.386174"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/TaskViewModel.swift"
+            timestampString = "519929402.342351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "TaskViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskViewModel.tasks.getter : RxSwift.Variable&lt;Swift.Array&lt;Prueba.TaskData&gt;&gt;"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskViewModel.swift"
+                  timestampString = "519926244.513716"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskViewModel.tasks.setter : RxSwift.Variable&lt;Swift.Array&lt;Prueba.TaskData&gt;&gt;"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskViewModel.swift"
+                  timestampString = "519926244.5181"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskViewModel.init () -&gt; Prueba.TaskViewModel"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskViewModel.swift"
+                  timestampString = "519926244.522511"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/TaskDataService.swift"
+            timestampString = "519926332.284134"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskDataService.getTasks () -&gt; RxSwift.Observable&lt;Swift.Array&lt;Prueba.TaskData&gt;&gt;"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskDataService.swift"
+                  timestampString = "519926350.128029"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Prueba.TaskDataService.(getTasks () -&gt; RxSwift.Observable&lt;Swift.Array&lt;Prueba.TaskData&gt;&gt;).(closure #1)"
+                  moduleName = "Prueba"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosmunoz/Olimpia/Prueba/Prueba/TaskDataService.swift"
+                  timestampString = "519926350.129699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "47">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/TaskDataService.swift"
+            timestampString = "519926341.734387"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/TaskDataService.swift"
+            timestampString = "519926385.79297"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/TaskDataService.swift"
+            timestampString = "519926386.983922"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/ViewController.swift"
+            timestampString = "519934627.325631"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/ViewController.swift"
+            timestampString = "519934508.944853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "addTask(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Prueba/ViewController.swift"
+            timestampString = "519934627.325631"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
